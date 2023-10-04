@@ -7,5 +7,6 @@ int main()
     int *t = get_Array("Enter the array", size);
     int num = get_input("Searching the number: ");
     printf("%d", Sequencial_search(t, size, num));
+    printf("%d", Dichotomous_search(t, size, num));
     return 0;
 }

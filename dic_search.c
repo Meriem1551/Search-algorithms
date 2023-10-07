@@ -2,7 +2,7 @@
 
 #include "main.h"
 
-int Dichotomous_search(int T[], int size, int x)
+int Binary_search(int T[], int size, int x)
 {
     int min = 0, max = size - 1, med;
     do

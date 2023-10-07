@@ -11,6 +11,6 @@ int main()
     if (choice == 1)
         printf("The result by using seq: %d", Sequencial_search(arr, size, num));
     else
-        printf("The result by usinf dic is: %d", Dichotomous_search(arr, size, num));
+        printf("The result by usinf dic is: %d", Binary_search(arr, size, num));
     return 0;
 }
